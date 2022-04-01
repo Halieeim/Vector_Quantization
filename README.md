@@ -16,8 +16,16 @@ This is my implementation of vector Quantization which is an algorithm that work
 ## Methodology Of Decompression
 Now we have the codebook and the average vectors of the codebook, we know the length of the code form the number of average vectors and because of that we can split the codebook in the text file to separate the code of each vector.
 1- Read the codebook text file and split the code of each vector.
+
+
 2- Match the code to its corresponding average vector.
+
+
+
 3- generate the whole image again by collecting these average vector, now you have the pixels of the image.
+
+
+
 4- Convert these pixels into image again.
 
 Now you got the image again but of course it is not like the original image.
